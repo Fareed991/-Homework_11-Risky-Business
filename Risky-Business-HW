@@ -1,3 +1,34 @@
 In this assignment, credit-related data is utilized in different models (Logistic Regression, Balanced Random Forest, Easy Ensemble) in order to predict a customer's credit risk. 
 After each model is run, different evaluation metrics are calculated (accuracy score, confusion matrix, classification report) in order to determine which model best suits the data. 
 Re-sampling of data (Oversampling/SMOTE, Undersampling/Cluster Centroids, and SMOTEENN) is also performed.
+
+
+**1. Resampling
+Use the above referenced Resampling Stater Notebook to answer the following:
+
+Which model had the best balanced accuracy score?
+
+-The SMOTE Oversampling model predicts the highest balanced accuracy score. This model gives us the highest probability of correct calls or correct predictions for credit risk.
+
+Which model had the best recall score?
+
+-The SMOTE Oversampling model has the best Recall score. This model will give us the highest actual positive samples that are correct.
+
+Which model had the best geometric mean score?
+- The SMOTE Oversampling model has the best Geometic mean score.
+
+2. Ensemble Learning
+Use the above referenced Ensemble Starter Notebook to answer the following:
+
+Which model had the best balanced accuracy score?
+
+-The Easy Ensemble Classifie model gives us the highest probability of correct calls or correct predictions for credit risk.
+
+Which model had the best recall score?
+
+-The Easy Ensemble Classifier model has the best Recall score. This model will give us the highest actual positive samples that are correct.
+
+Which model had the best geometric mean score?
+
+What are the top three features?
+
